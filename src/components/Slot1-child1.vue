@@ -3,7 +3,8 @@
   <button>
     <slot>如果父级没有则渲染此文本</slot>
   </button>
- 
+
+  <!-- <a v-bind:[attributeName]="'url123'"> ... </a> -->
 </template>
 
 <script>
@@ -11,7 +12,8 @@
 export default {
   name: 'Slot-child',
   created() {
-  },
+    // console.log(this.$slots)
+  }
 }
 </script>
 

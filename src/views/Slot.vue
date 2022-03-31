@@ -1,7 +1,7 @@
 <template>
   <!-- 对插槽模板填充数据 -->
   <SlotChild>
-    <!-- v-slot: 可缩写 # -->
+    <!-- v-slot: 可缩写 # 指定插入位置 -->
     <template v-slot:SlotName>  
       <alert-box>
         Something bad happened 直接使用插槽.

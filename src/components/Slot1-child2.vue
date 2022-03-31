@@ -1,9 +1,17 @@
 <template>
-  <!-- 插槽模板 指定插入位置-->
+
   <div>
-    <div>123</div>
-    <slot name="SlotName"></slot>
+    <header>
+      <slot name="header"></slot>
+    </header>
+    <main>
+      <slot></slot>
+    </main>
+    <footer>
+      <slot name="footer"></slot>
+    </footer>
   </div>
+  
 </template>
 
 <script>
