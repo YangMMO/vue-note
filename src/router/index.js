@@ -2,13 +2,15 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 // import HomeView from '../views/HomeView.vue'
 import VModel from '../views/VModel.vue'
 import Emit from '../views/Emit.vue'
-import CustomEvent from '../views/CustomEvent.vue'
 import Tab from '../views/Tab.vue'
 import Slot from '../views/Slot.vue'
 import Slot1 from '../views/Slot1.vue'
 import Prop from '../views/Prop.vue'
 import PropAttribute from '../views/PropAttribute.vue'
-import Switch from '../views/Switch.vue'
+import CustomEvent from '../views/CustomEvent.vue'
+import Provide from '../views/Provide.vue'
+import DynamicAsync from '../views/DynamicAsync.vue'
+import Ref from '../views/Ref.vue'
 
 const routes = [
   {
@@ -22,10 +24,6 @@ const routes = [
   {
     path: '/emit',
     component: Emit
-  },
-  {
-    path: '/customEvent',
-    component: CustomEvent
   },
   {
     path: '/tab',
@@ -47,14 +45,22 @@ const routes = [
     path: '/propAttribute',
     component: PropAttribute
   },
-
-
-  ,{
-    path: '/switch',
-    component: Switch
+  {
+    path: '/customEvent',
+    component: CustomEvent
   },
-  
-  
+  {
+    path: '/provide',
+    component: Provide
+  },
+  {
+    path: '/dynamic-async',
+    component: DynamicAsync
+  },
+  {
+    path: '/ref',
+    component: Ref
+  },
 ]
 
 const router = createRouter({

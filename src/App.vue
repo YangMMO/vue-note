@@ -3,14 +3,15 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/v-modle">V-Modle</router-link> |
     <router-link to="/emit">Emit</router-link> |
-    <router-link to="/customEvent">CustomEvent</router-link> |
     <router-link to="/tab">Tab</router-link> |
     <router-link to="/slot">Slot</router-link> |
     <router-link to="/slot1">Slot1</router-link> |
     <router-link to="/prop">Prop</router-link> |
     <router-link to="/propAttribute">PropAttribute</router-link> |
-
-    <router-link to="/switch">Switch</router-link> |
+    <router-link to="/customEvent">CustomEvent</router-link> |
+    <router-link to="/provide">Provide</router-link> |
+    <router-link to="/dynamic-async">DynamicAsync</router-link> |
+    <router-link to="/ref">Ref</router-link> |
   </nav>
   <router-view/>
 </template>
