@@ -12,6 +12,10 @@
     <router-link to="/provide">Provide</router-link> |
     <router-link to="/dynamic-async">DynamicAsync</router-link> |
     <router-link to="/ref">Ref</router-link> |
+    <router-link to="/dom-update">DomUpdate</router-link> |
+    <router-link to="/v-once">V-Once</router-link> |
+    <router-link to="/transition">Transition</router-link> |
+    <router-link to="/transition1">Transition1</router-link> |
   </nav>
   <router-view/>
 </template>
