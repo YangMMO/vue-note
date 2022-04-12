@@ -15,6 +15,7 @@ import DomUpdate from '../views/DomUpdate.vue'
 import VOnce from '../views/VOnce.vue'
 import Transition from '../views/Transition.vue'
 import Transition1 from '../views/Transition1.vue'
+import TransitionGroup from '../views/TransitionGroup.vue'
 
 const routes = [
   {
@@ -65,6 +66,9 @@ const routes = [
   },{
     path: '/transition1',
     component: Transition1
+  },{
+    path: '/transition-group',
+    component: TransitionGroup
   },
 ]
 
@@ -74,5 +78,3 @@ const router = createRouter({
 })
 
 export default router
-
-Transition

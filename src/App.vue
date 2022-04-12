@@ -16,6 +16,7 @@
     <router-link to="/v-once">V-Once</router-link> |
     <router-link to="/transition">Transition</router-link> |
     <router-link to="/transition1">Transition1</router-link> |
+    <router-link to="/transition-group">TransitionGroup</router-link> |
   </nav>
   <router-view/>
 </template>
