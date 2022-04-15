@@ -16,6 +16,11 @@ import VOnce from '../views/VOnce.vue'
 import Transition from '../views/Transition.vue'
 import Transition1 from '../views/Transition1.vue'
 import TransitionGroup from '../views/TransitionGroup.vue'
+import KeepAlive from '../views/KeepAlive.vue'
+import Teleport from '../views/Teleport.vue'
+import Suspense from '../views/Suspense.vue'
+import Composables from '../views/Composables.vue'
+
 
 const routes = [
   {
@@ -69,6 +74,18 @@ const routes = [
   },{
     path: '/transition-group',
     component: TransitionGroup
+  },{
+    path: '/keep-alive',
+    component: KeepAlive
+  },{
+    path: '/teleport',
+    component: Teleport
+  },{
+    path: '/composables',
+    component: Composables
+  },{
+    path: '/suspense',
+    component: Suspense
   },
 ]
 

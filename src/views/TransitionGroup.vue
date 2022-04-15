@@ -18,7 +18,7 @@
 
   <div>示例2</div>
   <div class="border">
-    <input v-model="query" @keyup="computedList" />
+    <input v-model="query" />
     <TransitionGroup
       tag="ul"
       :css="false"

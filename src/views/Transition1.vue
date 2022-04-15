@@ -170,9 +170,10 @@
 <script>
 import { gsap } from "gsap";
 import TransChild from '../components/Trans-child.vue'
+import 'animate.css';
 
 export default {
-  name: 'Transition',
+  name: 'Transition1',
   components: { TransChild },
   data() {
     return {
@@ -416,5 +417,5 @@ export default {
 
 
 
-@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
+// @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
 </style>

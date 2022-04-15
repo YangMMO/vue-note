@@ -17,6 +17,12 @@
     <router-link to="/transition">Transition</router-link> |
     <router-link to="/transition1">Transition1</router-link> |
     <router-link to="/transition-group">TransitionGroup</router-link> |
+    <router-link to="/keep-alive">KeepAlive</router-link> |
+    <router-link to="/teleport">Teleport</router-link> |
+    <router-link to="/composables">Composables</router-link> |
+    <router-link to="/suspense">Suspense</router-link> |
+    
+    
   </nav>
   <router-view/>
 </template>
@@ -44,5 +50,11 @@
 // }
 nav {
   padding-bottom: 20px;
+}
+
+
+.border {
+  border: 1px #e0e0e0 solid;
+  padding: 20px;
 }
 </style>
