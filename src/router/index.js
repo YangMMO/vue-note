@@ -1,5 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 // import HomeView from '../views/HomeView.vue'
+import LifecycleHooks from '../views/LifecycleHooks.vue'
 import VModel from '../views/VModel.vue'
 import Emit from '../views/Emit.vue'
 import Tab from '../views/Tab.vue'
@@ -18,14 +19,19 @@ import Transition1 from '../views/Transition1.vue'
 import TransitionGroup from '../views/TransitionGroup.vue'
 import KeepAlive from '../views/KeepAlive.vue'
 import Teleport from '../views/Teleport.vue'
-import Suspense from '../views/Suspense.vue'
 import Composables from '../views/Composables.vue'
+import CustomDirectives from '../views/CustomDirectives.vue'
+
+import Suspense from '../views/Suspense.vue'
 
 
 const routes = [
   {
     path: '/',
     component: () => import(/* webpackChunkName: "about" */ '../views/HomeView.vue')
+  },{
+    path: '/lifecycle-hooks',
+    component: LifecycleHooks
   },{
     path: '/v-modle',
     component: VModel
@@ -84,6 +90,11 @@ const routes = [
     path: '/composables',
     component: Composables
   },{
+    path: '/custom-directives',
+    component: CustomDirectives
+  },
+
+  {
     path: '/suspense',
     component: Suspense
   },
