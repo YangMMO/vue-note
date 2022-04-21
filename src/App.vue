@@ -22,7 +22,7 @@
     <router-link to="/teleport">Teleport</router-link>
     <router-link to="/composables">Composables</router-link>
     <router-link to="/custom-directives">CustomDirectives</router-link>
-    
+    <router-link to="/plugins">Plugins</router-link>
     <router-link to="/suspense">Suspense</router-link>
   </nav>
   <router-view/>
@@ -31,11 +31,7 @@
 <script>
 export default {
   name: 'App',
-  data() {
-    return {
-      item: 'frist',
-    }
-  },
+
 }
 </script>
 
@@ -63,22 +59,22 @@ export default {
 
 nav {
   padding: 5px;
-  background: #d6dce2;
+  background: #f3f3f3;
 }
 
 
 .border {
-  border: 1px #e0e0e0 solid;
+  border: 1px #cacaca solid;
   padding: 20px;
 }
 .box a {
-  border: 1px #e0e0e0 solid;
-  background: #f5f5f5;
+  border: 1px #c4c4c4 solid;
+  background: #f0f5ff;
   padding: 2px 4px;
   margin: 4px;
   border-radius: 4px;
   display: inline-block;
-  color: #000;
+  color: rgb(57, 126, 253);
   text-decoration: none;
   font-size: 14px;
 }

@@ -21,7 +21,7 @@ import KeepAlive from '../views/KeepAlive.vue'
 import Teleport from '../views/Teleport.vue'
 import Composables from '../views/Composables.vue'
 import CustomDirectives from '../views/CustomDirectives.vue'
-
+import Plugins from '../views/Plugins.vue'
 import Suspense from '../views/Suspense.vue'
 
 
@@ -92,9 +92,10 @@ const routes = [
   },{
     path: '/custom-directives',
     component: CustomDirectives
-  },
-
-  {
+  },{
+    path: '/plugins',
+    component: Plugins
+  },{
     path: '/suspense',
     component: Suspense
   },
