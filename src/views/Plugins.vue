@@ -5,13 +5,16 @@
   <h1>{{ $translate('cn.header.hello') }}</h1>
   <h1>{{ $translate('en.hello') }}</h1>
 
+  <PluginsChild></PluginsChild>
+
 </template>
 
 <script>
+import PluginsChild from '../components/Plugins-child.vue'
 
 export default {
   name: 'Plugins',
-
+  components: { PluginsChild },
 }
 </script>
 
